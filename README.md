@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Study Buddy: Personalized Study Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a personalized study assistant application designed to help users manage their studies effectively. It features AI-driven scheduling and adaptive learning capabilities.
+
+## Current Functionality
+
+1. **Smart Scheduler**
+   - Add events to a calendar
+   - Automatically schedule study sessions around existing events
+   - AI-powered conflict resolution and alternative time suggestions
+   - Dynamic schedule adjustment as new events are added
+
+2. **AI Integration**
+   - Uses Claude AI model via LangChain for intelligent scheduling
+
+3. **Error Handling and Logging**
+   - Comprehensive error handling for API interactions and scheduling conflicts
+   - Logging system for debugging and improvement
+
+## Setup and Installation
+
+1. Clone the repository
+2. Navigate to the project directory
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Set up environment variables:
+   - Create a `.env` file in the root directory
+   - Add your Anthropic API key:
+     ```
+     ANTHROPIC_API_KEY=your_api_key_here
+     ```
+5. Start the development server:
+   ```
+   npm start
+   ```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in development mode
+- `npm test`: Launches the test runner
+- `npm run build`: Builds the app for production
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Future Development
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Implement focus mode with Pomodoro technique
+- Add note summarization and management features
+- Develop flashcard and quiz generation
+- Create a progress dashboard
+- Integrate real-time communication features
 
-### `npm test`
+For more details on the development roadmap, please refer to the `DevelopmentGuide.txt` file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+This project is currently in active development. If you'd like to contribute, please reach out to the project maintainers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT License](LICENSE)

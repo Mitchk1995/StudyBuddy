@@ -1,59 +1,20 @@
 {
-  "name": "study-buddy-react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.26.0",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "anthropic": "^0.0.0",
-    "langchain": "^0.2.16",
-    "pg": "^8.12.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "socket.io": "^4.7.5",
-    "socket.io-client": "^4.7.5",
-    "web-vitals": "^2.1.4"
-  },
+  "name": "study-buddy-server",
+  "version": "1.0.0",
+  "description": "Study Buddy server application",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "test": "jest"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "forge.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "browserify-zlib": "^0.2.0",
-    "buffer": "^6.0.3",
-    "crypto-browserify": "^3.12.0",
-    "path-browserify": "^1.0.1",
-    "process": "^0.11.10",
-    "stream-browserify": "^3.0.0",
-    "url": "^0.11.4",
-    "util": "^0.12.5"
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
   }
 }

@@ -1,0 +1,100 @@
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:10:39"}
+{"level":"info","message":"Timer paused","service":"study-buddy","timestamp":"2024-08-14 20:10:40"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:10:39"}
+{"level":"info","message":"Timer reset","service":"study-buddy","timestamp":"2024-08-14 20:10:44"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:10:39"}
+{"level":"info","message":"Work session completed. Starting break for 3 seconds.","service":"study-buddy","timestamp":"2024-08-14 20:10:44"}
+{"level":"info","message":"Processing user feedback","service":"study-buddy","timestamp":"2024-08-14 20:10:39"}
+{"level":"info","message":"Adjusting work duration from 1500 to 1800","service":"study-buddy","timestamp":"2024-08-14 20:10:40"}
+{"level":"info","message":"Adjusting break duration from 300 to 360","service":"study-buddy","timestamp":"2024-08-14 20:10:40"}
+{"level":"info","message":"Adding new event: {\"title\":\"Test Event\",\"start\":\"2024-08-15T02:10:39.899Z\",\"end\":\"2024-08-15T02:10:39.899Z\"}","service":"study-buddy","timestamp":"2024-08-14 20:10:39"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:10:40"}
+{"level":"info","message":"Scheduled sessions: [{\"title\":\"Study Session\",\"start\":\"2023-05-01T10:00:00\",\"end\":\"2023-05-01T11:00:00\"}]","service":"study-buddy","timestamp":"2024-08-14 20:10:40"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:10:40"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:10:41"}
+{"level":"error","message":"Error scheduling sessions: API Error","service":"study-buddy","timestamp":"2024-08-14 20:10:41"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:10:41"}
+{"level":"info","message":"Adding new event: {\"title\":\"Test Event\",\"start\":\"2024-08-15T02:11:28.129Z\",\"end\":\"2024-08-15T02:11:28.129Z\"}","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Scheduled sessions: [{\"title\":\"Study Session\",\"start\":\"2023-05-01T10:00:00\",\"end\":\"2023-05-01T11:00:00\"}]","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Timer paused","service":"study-buddy","timestamp":"2024-08-14 20:11:29"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Timer reset","service":"study-buddy","timestamp":"2024-08-14 20:11:33"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Work session completed. Starting break for 3 seconds.","service":"study-buddy","timestamp":"2024-08-14 20:11:33"}
+{"level":"info","message":"Processing user feedback","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Adjusting work duration from 1500 to 1800","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Adjusting break duration from 300 to 360","service":"study-buddy","timestamp":"2024-08-14 20:11:28"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:11:29"}
+{"level":"error","message":"Error scheduling sessions: API Error","service":"study-buddy","timestamp":"2024-08-14 20:11:29"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:11:29"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Timer paused","service":"study-buddy","timestamp":"2024-08-14 20:18:02"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Timer reset","service":"study-buddy","timestamp":"2024-08-14 20:18:06"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Work session completed. Starting break for 3 seconds.","service":"study-buddy","timestamp":"2024-08-14 20:18:06"}
+{"level":"info","message":"Processing user feedback","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Adjusting work duration from 1500 to 1800","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Adjusting break duration from 300 to 360","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Adding new event: {\"title\":\"Test Event\",\"start\":\"2024-08-15T02:18:01.764Z\",\"end\":\"2024-08-15T02:18:01.764Z\"}","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Scheduled sessions: [{\"title\":\"Study Session\",\"start\":\"2023-05-01T10:00:00\",\"end\":\"2023-05-01T11:00:00\"}]","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"error","message":"Error scheduling sessions: API Error","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:18:01"}
+{"level":"info","message":"Adding new event: {\"title\":\"Test Event\",\"start\":\"2024-08-15T02:20:53.660Z\",\"end\":\"2024-08-15T02:20:53.660Z\"}","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"info","message":"Scheduled sessions: [{\"title\":\"Study Session\",\"start\":\"2023-05-01T10:00:00\",\"end\":\"2023-05-01T11:00:00\"}]","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"error","message":"Error scheduling sessions: API Error","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:20:53"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:20:54"}
+{"level":"info","message":"Timer paused","service":"study-buddy","timestamp":"2024-08-14 20:20:55"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:20:54"}
+{"level":"info","message":"Timer reset","service":"study-buddy","timestamp":"2024-08-14 20:20:59"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:20:54"}
+{"level":"info","message":"Work session completed. Starting break for 3 seconds.","service":"study-buddy","timestamp":"2024-08-14 20:20:59"}
+{"level":"info","message":"Processing user feedback","service":"study-buddy","timestamp":"2024-08-14 20:20:54"}
+{"level":"info","message":"Adjusting work duration from 1500 to 1800","service":"study-buddy","timestamp":"2024-08-14 20:20:54"}
+{"level":"info","message":"Adjusting break duration from 300 to 360","service":"study-buddy","timestamp":"2024-08-14 20:20:54"}
+{"level":"info","message":"Adding new event: {\"title\":\"Test Event\",\"start\":\"2024-08-15T02:22:21.814Z\",\"end\":\"2024-08-15T02:22:21.814Z\"}","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"info","message":"Scheduled sessions: [{\"title\":\"Study Session\",\"start\":\"2023-05-01T10:00:00\",\"end\":\"2023-05-01T11:00:00\"}]","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"error","message":"Error scheduling sessions: API Error","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-14 20:22:21"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:22:22"}
+{"level":"info","message":"Timer paused","service":"study-buddy","timestamp":"2024-08-14 20:22:23"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:22:22"}
+{"level":"info","message":"Timer reset","service":"study-buddy","timestamp":"2024-08-14 20:22:27"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-14 20:22:22"}
+{"level":"info","message":"Work session completed. Starting break for 3 seconds.","service":"study-buddy","timestamp":"2024-08-14 20:22:27"}
+{"level":"info","message":"Processing user feedback","service":"study-buddy","timestamp":"2024-08-14 20:22:22"}
+{"level":"info","message":"Adjusting work duration from 1500 to 1800","service":"study-buddy","timestamp":"2024-08-14 20:22:22"}
+{"level":"info","message":"Adjusting break duration from 300 to 360","service":"study-buddy","timestamp":"2024-08-14 20:22:22"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-15 00:13:43"}
+{"level":"info","message":"Timer paused","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-15 00:13:43"}
+{"level":"info","message":"Timer reset","service":"study-buddy","timestamp":"2024-08-15 00:13:48"}
+{"level":"info","message":"Timer started","service":"study-buddy","timestamp":"2024-08-15 00:13:43"}
+{"level":"info","message":"Work session completed. Starting break for 3 seconds.","service":"study-buddy","timestamp":"2024-08-15 00:13:48"}
+{"level":"info","message":"Processing user feedback","service":"study-buddy","timestamp":"2024-08-15 00:13:43"}
+{"level":"info","message":"Adjusting work duration from 1500 to 1800","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Adjusting break duration from 300 to 360","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Adding new event: {\"title\":\"Test Event\",\"start\":\"2024-08-15T06:13:44.441Z\",\"end\":\"2024-08-15T06:13:44.441Z\"}","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Scheduled sessions: [{\"title\":\"Study Session\",\"start\":\"2023-05-01T10:00:00\",\"end\":\"2023-05-01T11:00:00\"}]","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Starting session scheduling","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"error","message":"Error scheduling sessions: API Error","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"info","message":"Session scheduling completed","service":"study-buddy","timestamp":"2024-08-15 00:13:44"}
+{"level":"error","message":"Error fetching study sessions: Cannot read properties of undefined (reading 'data')","service":"study-buddy","stack":"TypeError: Cannot read properties of undefined (reading 'data')\n    at D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:62:23\n    at step (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:44:23)\n    at Object.next (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:25:53)\n    at fulfilled (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:16:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-15 00:13:44"}
+{"level":"error","message":"Error calculating readiness: Cannot read properties of undefined (reading 'data')","service":"study-buddy","stack":"TypeError: Cannot read properties of undefined (reading 'data')\n    at D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:62:23\n    at step (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:44:23)\n    at Object.next (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:25:53)\n    at fulfilled (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.tsx:16:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-08-15 00:13:44"}
+{"level":"error","message":"Error fetching study sessions: API Error","service":"study-buddy","stack":"Error: API Error\n    at D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:56:48\n    at step (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:33:23)\n    at Object.next (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:14:53)\n    at D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:8:71\n    at new Promise (<anonymous>)\n    at Object.<anonymous>.__awaiter (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:4:12)\n    at Object.<anonymous> (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:55:53)\n    at Promise.then.completed (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n    at Object.worker (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-runner\\build\\testWorker.js:106:12)","timestamp":"2024-08-15 00:13:44"}
+{"level":"error","message":"Error calculating readiness: API Error","service":"study-buddy","stack":"Error: API Error\n    at D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:56:48\n    at step (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:33:23)\n    at Object.next (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:14:53)\n    at D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:8:71\n    at new Promise (<anonymous>)\n    at Object.<anonymous>.__awaiter (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:4:12)\n    at Object.<anonymous> (D:\\StudyBuddy\\study-buddy\\client\\src\\components\\ReadinessRating.test.tsx:55:53)\n    at Promise.then.completed (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at _runTest (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n    at Object.worker (D:\\StudyBuddy\\study-buddy\\client\\node_modules\\jest-runner\\build\\testWorker.js:106:12)","timestamp":"2024-08-15 00:13:44"}

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { ChatAnthropic } from "langchain/chat_models/anthropic";
 import { HumanChatMessage, SystemChatMessage } from "langchain/schema";
 import { Anthropic } from "@anthropic-ai/sdk";
+import SmartScheduler from './SmartScheduler';
+import FocusMode from './FocusMode';
 
 const AIInterface: React.FC = () => {
   const [userInput, setUserInput] = useState('');
@@ -57,6 +59,8 @@ const AIInterface: React.FC = () => {
       </form>
       {error && <p className="error">{error}</p>}
       {aiResponse && <p>{aiResponse}</p>}
+      <SmartScheduler />
+      <FocusMode initialWorkDuration={1500} initialBreakDuration={300} />
     </div>
   );
 };
