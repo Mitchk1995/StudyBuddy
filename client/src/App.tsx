@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import SmartScheduler from './components/SmartScheduler';
 import FocusMode from './components/FocusMode';
 import ReadinessRating from './components/ReadinessRating';
+import OAuthCallback from './components/OAuthCallback';
+import Home from './components/Home';
 import './App.css';
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
             <Route path="/scheduler" element={<SmartScheduler />} />
             <Route path="/focus" element={<FocusMode initialWorkDuration={1500} initialBreakDuration={300} />} />
             <Route path="/readiness" element={<ReadinessRating userId={1} />} />
+            <Route path="/oauth2callback" element={<OAuthCallback />} />
           </Routes>
         </main>
 
@@ -33,29 +36,6 @@ function App() {
         </footer>
       </div>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div className="home">
-      <h2>Welcome to Study Buddy</h2>
-      <p>Your personal AI-powered study assistant.</p>
-      <div className="feature-list">
-        <div className="feature">
-          <h3>Smart Scheduler</h3>
-          <p>Optimize your study time with AI-driven scheduling.</p>
-        </div>
-        <div className="feature">
-          <h3>Focus Mode</h3>
-          <p>Stay on track with our Pomodoro-inspired focus sessions.</p>
-        </div>
-        <div className="feature">
-          <h3>Readiness Rating</h3>
-          <p>Get insights on your exam preparedness.</p>
-        </div>
-      </div>
-    </div>
   );
 }
 

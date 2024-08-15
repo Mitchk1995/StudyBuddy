@@ -1,62 +1,102 @@
 # Study Buddy: Personalized Study Assistant
 
-This project is a personalized study assistant application designed to help users manage their studies effectively. It features AI-driven scheduling and adaptive learning capabilities.
+Study Buddy is an AI-powered study assistant designed to help users manage their studies effectively. It features intelligent scheduling, focus management, and readiness tracking to optimize your learning experience.
 
 ## Current Functionality
 
 1. **Smart Scheduler**
-   - Add events to a calendar
-   - Automatically schedule study sessions around existing events
-   - AI-powered conflict resolution and alternative time suggestions
+   - Add events to your calendar
+   - AI-powered study session scheduling around existing events
+   - Automatic conflict resolution and alternative time suggestions
    - Dynamic schedule adjustment as new events are added
 
-2. **AI Integration**
-   - Uses Claude AI model via LangChain for intelligent scheduling
+2. **Focus Mode (Pomodoro Technique)**
+   - Customizable work and break durations
+   - Timer with start, pause, and reset functionality
+   - AI-driven adjustments based on user feedback
+   - Session completion tracking
 
-3. **Error Handling and Logging**
+3. **Readiness Rating**
+   - Calculates a readiness score based on study history and quiz performance
+   - Provides personalized feedback on study progress
+   - AI-refined scoring for more accurate assessments
+
+4. **AI Integration**
+   - Utilizes Claude AI model via LangChain for intelligent features
+   - Customizable AI prompts for personalized interactions
+
+5. **Error Handling and Logging**
    - Comprehensive error handling for API interactions and scheduling conflicts
    - Logging system for debugging and improvement
 
 ## Setup and Installation
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Install dependencies:
+1. Clone the repository:
    ```
-   npm install
+   git clone https://github.com/yourusername/study-buddy.git
+   cd study-buddy
    ```
-4. Set up environment variables:
-   - Create a `.env` file in the root directory
-   - Add your Anthropic API key:
+
+2. Install dependencies for both client and server:
+   ```
+   cd client && npm install
+   cd ../server && npm install
+   ```
+
+3. Set up environment variables:
+   - Create a `.env` file in both the `client` and `server` directories
+   - In `client/.env`, add:
      ```
-     ANTHROPIC_API_KEY=your_api_key_here
+     REACT_APP_ANTHROPIC_API_KEY=your_anthropic_api_key_here
+     REACT_APP_GOOGLE_CLIENT_ID=your_google_client_id_here
+     REACT_APP_GOOGLE_CLIENT_SECRET=your_google_client_secret_here
      ```
-5. Start the development server:
-   ```
-   npm start
-   ```
+   - In `server/.env`, add:
+     ```
+     DB_USER=your_database_user
+     DB_PASSWORD=your_database_password
+     DB_NAME=studybuddy
+     DB_HOST=localhost
+     DB_PORT=5432
+     ```
 
-## Available Scripts
+4. Set up the database:
+   - Create a PostgreSQL database named `studybuddy`
+   - Run the SQL scripts in `server/db/schema.sql` to set up the tables
 
-In the project directory, you can run:
+5. Start the development servers:
+   - In one terminal, run the client:
+     ```
+     cd client && npm start
+     ```
+   - In another terminal, run the server:
+     ```
+     cd server && npm start
+     ```
 
-- `npm start`: Runs the app in development mode
-- `npm test`: Launches the test runner
-- `npm run build`: Builds the app for production
+## How to Use
 
-## Future Development
+1. **Smart Scheduler**
+   - Navigate to the Smart Scheduler page
+   - Add your events using the form provided
+   - Click "Schedule Study Sessions" to generate an optimized study plan
+   - Use "Adjust Schedule" to refine your plan as needed
 
-- Implement focus mode with Pomodoro technique
-- Add note summarization and management features
-- Develop flashcard and quiz generation
-- Create a progress dashboard
-- Integrate real-time communication features
+2. **Focus Mode**
+   - Go to the Focus Mode page
+   - Set your desired work and break durations
+   - Click "Start" to begin a focus session
+   - Use "Pause" and "Reset" as needed
+   - Provide feedback after sessions to help the AI adjust to your needs
 
-For more details on the development roadmap, please refer to the `DevelopmentGuide.txt` file.
+3. **Readiness Rating**
+   - Visit the Readiness Rating page
+   - Your current readiness score and feedback will be displayed
+   - Click "Recalculate Readiness" to update your score based on recent activity
 
 ## Contributing
 
-This project is currently in active development. If you'd like to contribute, please reach out to the project maintainers.
+This project is currently in active development. If you'd like to contribute, please reach out to the project maintainers or submit a pull request.
 
 ## License
 

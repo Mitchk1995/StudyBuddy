@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -8,13 +9,26 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
+    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["jest", "node", "@testing-library/jest-dom"]
+    "types": ["node", "jest"],
+    "typeRoots": ["./node_modules/@types", "./src"],
+    "paths": {
+      "crypto": ["node_modules/crypto-browserify"],
+      "stream": ["node_modules/stream-browserify"],
+      "assert": ["node_modules/assert"],
+      "http": ["node_modules/stream-http"],
+      "https": ["node_modules/https-browserify"],
+      "os": ["node_modules/os-browserify/browser"],
+      "url": ["node_modules/url"],
+      "zlib": ["node_modules/browserify-zlib"],
+      "path": ["node_modules/path-browserify"],
+      "querystring": ["node_modules/querystring-es3"]
+    }
   },
-  "include": ["src", "jest-dom.d.ts"]
+  "include": ["src"]
 }

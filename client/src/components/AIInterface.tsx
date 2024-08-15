@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { ChatAnthropic } from "langchain/chat_models/anthropic";
 import { HumanChatMessage, SystemChatMessage } from "langchain/schema";
-import { Anthropic } from "@anthropic-ai/sdk";
 import SmartScheduler from './SmartScheduler';
 import FocusMode from './FocusMode';
 
@@ -17,30 +16,30 @@ const AIInterface: React.FC = () => {
     setError(null);
 
     try {
-      const anthropic = new Anthropic({
-        apiKey: process.env.ANTHROPIC_API_KEY, // Make sure to set this in your .env file
-      });
-
-      const chatModel = new ChatAnthropic({
-        anthropicApiKey: process.env.ANTHROPIC_API_KEY,
-        modelName: "claude-3-5-sonnet-20240620", // or whichever model you prefer
-      });
-
-      const messages = [
-        new SystemChatMessage("You are a helpful AI assistant."),
-        new HumanChatMessage(userInput),
-      ];
-
-      const response = await chatModel.call(messages);
-      
-      setAiResponse(response.text);
+      const response = await callAI(userInput);
+      setAiResponse(response);
     } catch (error) {
       console.error('Error processing user input:', error);
       setError('An error occurred while processing your request. Please try again.');
-      setAiResponse(''); // Clear any previous response
+      setAiResponse('');
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const callAI = async (input: string): Promise<string> => {
+    const chatModel = new ChatAnthropic({
+      anthropicApiKey: process.env.ANTHROPIC_API_KEY,
+      modelName: "claude-3-5-sonnet-20240620",
+    });
+
+    const messages = [
+      new SystemChatMessage("You are a helpful AI assistant."),
+      new HumanChatMessage(input),
+    ];
+
+    const response = await chatModel.call(messages);
+    return response.text;
   };
 
   return (
@@ -53,7 +52,7 @@ const AIInterface: React.FC = () => {
           placeholder="Ask me anything..."
           disabled={isLoading}
         />
-        <button type="submit" disabled={isLoading}>
+        <button type="submit" disabled={isLoading} data-testid="ai-submit-button">
           {isLoading ? 'Processing...' : 'Send'}
         </button>
       </form>
